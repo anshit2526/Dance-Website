@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Anshit Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar.top 
+        ul
+            span#logo
+                img(src="../static/img/logo.png")
+                | ADA
+            li #[a(href="/" id='list-item') Home]
+            li #[a(href="/" id='list-item') About ]
+            li #[a(href="/contact" id='list-item') Contact us ]
+            li #[a(href="/" id='list-item') Class info]
+            li #[a(href="/" id='list-item') Services ]
+    div#fill-navbar
+    
+    block content
+
+    footer#footer
+      | Copyright &copy; 2023 Anshit Dance Academy. | All rights reversed.

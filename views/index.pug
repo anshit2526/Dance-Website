@@ -1,0 +1,61 @@
+doctype html
+html
+  head 
+    style 
+      include ../static/style.css
+  body  
+    nav#navbar.top 
+      ul
+        span#logo
+          img(src="../static/img/logo.png")
+          | ADA
+        li #[a(href="/" id='list-item') Home]
+        li #[a(href="/" id='list-item') About ]
+        li #[a(href="/" id='list-item') Contact us ]
+        li #[a(href="/" id='list-item') Class info]
+        li #[a(href="/" id='list-item') Services ]
+
+    section#introSection
+      p Welcome to Anshit's Dance Academy
+      p.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+      h2 Our Mission
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="../static/img/card 1.png")
+            div.card-content
+              p 
+      div.card
+        h3 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="../static/img/card 4.png")
+            div.card-content
+              p 
+      div.card
+        h3 Expert Teachings
+        div.card-box
+          div.card-img
+            img(src="../static/img/card 3.png")
+            div.card-content
+              p 
+
+    section#sponserSection
+      h2 section for sponcers
+      div#sponsers
+        img(src="../static/img/sponser 1.png", alt="Sponser: The Dance Mafia", class="spImage")
+        img(src="../static/img/sponser 2.png", alt="Sponser: The Dance Mafia", class="spImage")
+        img(src="../static/img/sponser 3.png", alt="Sponser: The Dance Mafia", class="spImage")
+        img(src="../static/img/sponser 4.png", alt="Sponser: The Dance Mafia", class="spImage")
+    
+
+    footer#footer
+      | Copyright &copy; 2023 Anshit Dance Academy. | All rights reversed.
+
+    
+
+    script 
+      include ../static/index.js

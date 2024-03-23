@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput {
+    margin: 5px;
+    padding: 4px;
+    width: 30%;
+    font-size: 15px;
+    outline: none;
+}
+
+.btn {
+    padding: 1px 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(36, 36, 36);;
+    color:  rgb(224, 224, 224);
+}
